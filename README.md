@@ -1,4 +1,4 @@
-Ссылки изначально установлены на скачивание ресурсов для моддинга SCP: SL
+Ссылки изначально установлены на скачивание ресурсов для моддинга SCP: SL.
 https://misaka-zerotwo.github.io/SL-References/Dev.zip | https://github.com/Exiled-team/Exiled/releases/latest/download/Exiled.tar.gz
 
 1. Запустите [программу](https://github.com/cliv-shape/DownloadRelease/releases/latest)
