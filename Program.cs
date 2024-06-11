@@ -60,7 +60,8 @@ public class Program
 
                     Console.WriteLine($"Скачиваем {ssl} из {url}..\n");
 
-                    client.DownloadFile(url, Path.Combine(tempPath, ssl));
+                    if(ssl.EndsWith(".dll")) client.DownloadFile(url, Path.Combine(path, ssl));
+                    else client.DownloadFile(url, Path.Combine(tempPath, ssl));
                 }
             }
 #pragma warning enable
