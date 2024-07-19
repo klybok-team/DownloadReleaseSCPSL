@@ -29,7 +29,7 @@ public class Program
 
         if (!File.Exists(PathToDownload))
         {
-            File.WriteAllText(PathToDownload, "https://misaka-zerotwo.github.io/SL-References/Dev.zip\nhttps://github.com/Exiled-team/Exiled/releases/latest/download/Exiled.tar.gz");
+            File.WriteAllText(PathToDownload, "https://misaka-zerotwo.github.io/SL-References/Dev.zip\nhttps://github.com/Exiled-Official/EXILED/releases/latest/download/Exiled.tar.gz");
         }
         else toDownload = File.ReadAllText(PathToDownload).Split("\n");
 
